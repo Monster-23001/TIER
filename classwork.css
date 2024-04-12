@@ -1,0 +1,90 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(to left, #233577 30%, #1a71f4 70%);
+  color: rgb(248, 240, 240);
+}
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  background: linear-gradient(to left, #263d8d 60%, #206bdb 90%);
+}
+nav {
+  display: flex;
+  column-gap: 40px;
+  font-size: 15px;
+}
+.logo {
+  font-size: 180%;
+}
+#logo-2 {
+  color: #4dddbd;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.work {
+  width: 220px;
+  background-color: #fd6596;
+  border: none;
+  border-radius: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 2px;
+  padding-bottom: 1px;
+  text-align: center;
+  display: flex;
+  justify-content: baseline;
+}
+.hero-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 12px;
+  max-width: 300px;
+}
+
+span {
+  display: block;
+}
+.the-main {
+  padding-left: 80px;
+}
+.main-container {
+  display: flex;
+  padding: 100px;
+  justify-content: space-around;
+}
+
+.section-1 {
+  display: flex;
+  justify-content: space-between;
+ max-width: max-content;
+}
+.main-3 {
+  color: white;
+  font-weight: 1;
+}
+.main-4 {
+  width: 220px;
+  color: white;
+  font-weight: bolder;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fd6596;
+  border: none;
+  border-radius: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  display: flex;
+  justify-content: baseline;
+}
